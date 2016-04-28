@@ -6,6 +6,7 @@
  */
 namespace PHPWeekly\Issue50\Tests\Twig;
 
+use PHPUnit_Framework_TestCase;
 use PHPWeekly\Issue50\Transformer\NameTransformer;
 use PHPWeekly\Issue50\Twig\NameGameExtension;
 
@@ -17,7 +18,7 @@ use PHPWeekly\Issue50\Twig\NameGameExtension;
  *
  * @package PHPWeekly\Issue50\Tests\Twig
  */
-class NameGameExtensionTest extends \PHPUnit_Framework_TestCase
+class NameGameExtensionTest extends PHPUnit_Framework_TestCase
 {
     /**
      * @var NameGameExtension
