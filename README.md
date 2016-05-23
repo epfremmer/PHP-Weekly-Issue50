@@ -15,4 +15,3 @@
 ## Tests
 
 `bin/phpunit`
-
